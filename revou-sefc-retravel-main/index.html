@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>RevoU | Fundamental Course Software Enginering</title>
+
+    <!-- GOOGLE FONT -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet" />
+
+    <!-- Icons -->
+    <link href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css" rel="stylesheet" />
+    <link rel="stylesheet" href="css/styles.css" />
+  </head>
+  <body>
+    <header class="header">
+      <div class="container">
+        <section class="header__logo">
+          <a href="">Retravel</a>
+        </section>
+        <section class="header__menu hidden">
+          <li>
+            <a href="">Home</a>
+          </li>
+          <li>
+            <a href="">Our Package</a>
+          </li>
+          <li>
+            <a href="">Call Us</a>
+          </li>
+        </section>
+        <section id="hamburger-menu" class="hamburger-menu">
+          <i class="bx bx-menu"></i>
+        </section>
+      </div>
+    </header>
+    <div class="jumbotron">
+      <div class="container">
+        <div class="jumbotron__box">
+          <h1>Your Trusted Travel Agent.</h1>
+          <p>Libero quod aut voluptas assumenda dicta nam!</p>
+          <div class="btn-jumbotron">
+            <a href="">Explore</a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="main">
+      <div class="container container__main">
+        <section class="main__content">
+          <div class="main__ulasan">
+            <div class="main__img">
+              <img src="https://images.unsplash.com/photo-1708201354314-e45a378084e2?crop=entropy&cs=tinysrgb&fit=crop&fm=jpg&h=400&ixid=MnwxfDB8MXxyYW5kb218MHx8fHx8fHx8MTcxMTYzNzI5Mw&ixlib=rb-4.0.3&q=80&w=600 alt=" />
+            </div>
+            <div class="main__img">
+              <img src="https://images.unsplash.com/photo-1707699400213-847b2b852300?crop=entropy&cs=tinysrgb&fit=crop&fm=jpg&h=400&ixid=MnwxfDB8MXxyYW5kb218MHx8fHx8fHx8MTcxMTYzNzM2Mg&ixlib=rb-4.0.3&q=80&w=600" alt="" />
+            </div>
+            <div class="main__img">
+              <img src="https://images.unsplash.com/photo-1707845690193-ec178cf78041?crop=entropy&cs=tinysrgb&fit=crop&fm=jpg&h=400&ixid=MnwxfDB8MXxyYW5kb218MHx8fHx8fHx8MTcxMTYzNzM4NA&ixlib=rb-4.0.3&q=80&w=600" alt="" />
+            </div>
+            <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+            <a class="next" onclick="plusSlides(1)">&#10095;</a>
+            <!-- <q class="main__motto">Liburan Kemanapun Dimanapun dan Kapanpun</q> -->
+            <div class="main__ulasan-user">
+              <div class="main__ulasan-avatar"></div>
+              <div class="main__ulasan-nama">
+                <h3>Andriansyah</h3>
+                <p>Frontend Web, <span>24 Tahun</span></p>
+              </div>
+            </div>
+          </div>
+
+          <!-- Fitur -->
+          <div class="main__fitur">
+            <div class="main__fitur-kalimat"><p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident impedit animi, ipsum optio esse ex sapiente labore, eaque, doloribus consequatur explicabo. Vel ullam labore neque!</p></div>
+            <ol>
+              <li>Lorem ipsum, dolor sit amet consectetur adipisicing.</li>
+              <li>Dignissimos illum asperiores itaque expedita,</li>
+              <li>Lorem ipsum, dolor sit odit beatae veniam..</li>
+            </ol>
+          </div>
+        </section>
+        <section class="main__form-wrap">
+          <div class="main__form-title">
+            <h1>Contact Us</h1>
+            <p>Sales akan menghubungi anda dalam 1 x 24 Jam setelah data kami terima</p>
+          </div>
+          <form action="" class="main__form" name="form-contact">
+            <label for="name">Your Name :</label>
+            <input type="text" name="name" id="name" placeholder="First and Last Name" autocomplete="on" />
+            <label for="email">Email Address :</label>
+            <input type="text" name="email" id="email" placeholder="Example@email.com" autocomplete="on" />
+            <label for="destinasi">What are you Interested in :</label>
+            <select name="destinasi" id="destinasi">
+              <option disabled value="">Select Option</option>
+              <option value="bali">Bali</option>
+              <option value="labuan baju">Labuan Bajo</option>
+              <option value="raja ampat">Raja Ampat</option>
+              <option value="Lombok">Lombok</option>
+            </select>
+            <button class="btn" id="send-button" type="button">SEND</button>
+          </form>
+        </section>
+      </div>
+    </div>
+
+    <div class="our-package__title">
+      <h1>Our Package</h1>
+    </div>
+    <div class="our-package">
+      <div class="container__package">
+        <div class="our-package__content">
+          <div class="our-package__box">
+            <div class="package-box__icon"><i class="bx bx-pin"></i></div>
+            <div class="package-box__destinasi">
+              <h3>Bali</h3>
+              <p>Lorem ipsum dolor sit amet consectetur.</p>
+            </div>
+          </div>
+          <div class="our-package__box">
+            <div class="package-box__icon"><i class="bx bx-pin"></i></div>
+            <div class="package-box__destinasi">
+              <h3>Labuan Bajo</h3>
+              <p>Lorem ipsum dolor sit amet consectetur.</p>
+            </div>
+          </div>
+          <div class="our-package__box">
+            <div class="package-box__icon"><i class="bx bx-pin"></i></div>
+            <div class="package-box__destinasi">
+              <h3>Lombok</h3>
+              <p>Lorem ipsum dolor sit amet consectetur.</p>
+            </div>
+          </div>
+          <div class="our-package__box">
+            <div class="package-box__icon"><i class="bx bxs-star"></i></div>
+            <div class="package-box__destinasi">
+              <h3>Raja Ampat</h3>
+              <p>Lorem ipsum dolor sit amet consectetur.</p>
+            </div>
+          </div>
+          <div class="our-package__box">
+            <div class="package-box__icon"><i class="bx bxs-star"></i></div>
+            <div class="package-box__destinasi">
+              <h3>Yogyakarta</h3>
+              <p>Lorem ipsum dolor sit amet consectetur.</p>
+            </div>
+          </div>
+          <div class="our-package__box">
+            <div class="package-box__icon"><i class="bx bxs-star"></i></div>
+            <div class="package-box__destinasi">
+              <h3>Wakatobi</h3>
+              <p>Lorem ipsum dolor sit amet consectetur.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- CTA -->
+    <section class="cta">
+      <div class="container__cta">
+        <div class="cta__box">
+          <h1>Your Closing Argumen Headline</h1>
+          <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quis commodi sed eius amet, dolorum adipisci repellat. Vel earum, perspiciatis nemo ipsam reprehenderit enim! Ab, dolorem.</p>
+          <div class="btn-cta">
+            <a href="">GET NOW</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <div class="footer">
+      <p>&copy; Copyright 2024 Andriansyah, Made With <i class="bx bxs-heart"></i></p>
+    </div>
+
+    <script src="./js/script.js"></script>
+  </body>
+</html>
